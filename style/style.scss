@@ -1,0 +1,158 @@
+
+
+@font-face {
+    src: url(../fonts/Yekan.woff);
+    font-family: Yekan;
+}
+
+* {
+    font-family: Yekan;
+}
+
+//menu
+.collapse {
+    text-align: center;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+    background-size: cover;
+    color: #272727;
+    align-content: center;
+    text-align: center;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-family: Yekan;
+    line-height: 10em;
+    font-size: small;
+
+    .intro-heading {
+        margin-bottom: 40px !important;
+        text-align: right;
+        font-weight: 100 !important;
+    }
+}
+
+// main classes
+.main-circle-btn {
+    border-radius: 40px;
+}
+
+#header-btn {
+    background-color: #1098F7 !important;
+
+}
+
+#header-btn:hover {
+    background-color: #1098F7 !important;
+    transition: .3s;
+}
+
+section {
+    font-style: normal !important;
+}
+
+.text-primary {
+    
+}
+
+.navbar-brnd {
+    font-size: 4em;
+}
+
+.portfolio-hover {
+    background-color: #1098f75e !important;
+}
+
+#wow {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.card {
+    position: relative;
+}
+
+ul.nav {
+    display: flex;
+    align-items: center;
+    p {
+        font-size: 5%;
+        margin-top: 6px;
+       /*  margin-left: 10px; */
+       padding: 0 0 0 10px;
+    }
+}
+
+.my-outline-primary {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #1098F7;
+    border-radius: 20px;
+    color: #1098F7;
+    transition: .3s;
+}
+
+.my-outline-primary:hover {
+    color: #fff !important;
+    background: #1098F7;
+    transition: .3s;
+}
+
+.heart {
+    fill: #1098F7;
+}
+
+.like-info {
+    display: inline-flex;
+    margin-right: auto;
+}
+
+.heart-img {
+    width: 50%;
+}
+
+.heart-img-fix {
+    margin: 10px 0 0 14px;
+}
+
+
+.timeline-image {
+    background-color: #1098F7!important;
+}
+
+.timeline-image#i1 {
+    background: url(../assets/images/04-thumbnail.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.timeline-image#i2 {
+    background: url(../assets/images/03-thumbnail.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.timeline-image#i3 {
+    background: url(../assets/images/02-thumbnail.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.timeline-image#i4 {
+    background: url(../assets/images/01-thumbnail.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.timeline-image#i5 {
+    background: url(../assets/images/bomb.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.timeline-image#i6   {
+    background: url(../assets/images/01-full.jpg) no-repeat center center;
+    background-size: cover;
+}
